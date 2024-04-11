@@ -1,0 +1,45 @@
+header {
+    height: 10vh ;
+    width: 100% ;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 rem 2 rem;
+    background-color: #333;
+    color: white;
+}
+
+#menu {
+    height: 10vh;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px;
+   
+}
+
+a:link { 
+    text-decoration: none; 
+    color:azure;
+} 
+  a:visited { 
+    text-decoration: none;
+    color:rgb(57, 153, 170); 
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: rgb(243, 159, 70);
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  
